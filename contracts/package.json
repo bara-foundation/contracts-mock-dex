@@ -1,5 +1,5 @@
 {
-  "name": "@bara-foundation/contracts-mock-dex",
+  "name": "@bara-foundation/mock-dex-contracts",
   "description": "Mock DEX for testing",
   "version": "0.0.1-rc.3",
   "files": [
