@@ -2,11 +2,14 @@
   "name": "@bara-foundation/mock-dex-contracts",
   "description": "Mock DEX for testing",
   "version": "0.0.1-rc.4",
-  "types": "./typechain/index.ts",
+  "main": "./build/typechain/index.js",
+  "types": "./build/typechain/index.d.ts",
   "files": [
     "**/*.sol",
     "**/*.d.ts",
     "/build/contracts/*.json",
+    "/build/typechain/**/*.js",
+    "/build/typechain/**/*.d.ts",
     "!/mocks/**/*"
   ],
   "scripts": {
@@ -31,5 +34,12 @@
     "url": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues"
   },
   "homepage": "https://openzeppelin.com/contracts/",
-  "private": false
+  "private": false,
+  "peerDependencies": {
+    "ethers": "^5.4.7",
+    "@ethersproject/bytes": "^5.4.0",
+    "@ethersproject/abi": "^5.4.1",
+    "@ethersproject/providers": "^5.4.5",
+    "@nomiclabs/hardhat-ethers": "^2.0.2"
+  }
 }

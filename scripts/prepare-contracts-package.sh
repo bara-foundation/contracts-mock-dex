@@ -13,11 +13,10 @@ else
 fi
 
 # Clean up
-rm -rf contracts/dist
+rm -rf contracts/build
 
 # Move artifacts
 cp README.md contracts/
-mkdir contracts/build contracts/build/contracts
-mkdir contracts/dist
+mkdir contracts/build contracts/build/contracts contracts/build/typechain
 cp -r build/contracts/*.json contracts/build/contracts
-cp -r dist contracts/dist
+cp -r dist/typechain/* contracts/build/typechain
