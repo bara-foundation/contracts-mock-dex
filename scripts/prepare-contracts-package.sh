@@ -12,6 +12,12 @@ else
   npm run prepack
 fi
 
+# Clean up
+rm -rf contracts/dist
+
+# Move artifacts
 cp README.md contracts/
 mkdir contracts/build contracts/build/contracts
+mkdir contracts/dist
 cp -r build/contracts/*.json contracts/build/contracts
+cp -r dist contracts/dist

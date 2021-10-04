@@ -1,4 +1,6 @@
 import "@nomiclabs/hardhat-waffle";
+import "@typechain/ethers-v5";
+import "@typechain/hardhat";
 
 import { task } from "hardhat/config";
 
@@ -17,4 +19,8 @@ task("accounts", "Prints the list of accounts", async (args, hre) => {
 
 export default {
   solidity: "0.8.4",
+  typechain: {
+    outDir: "./typechain",
+    target: "ethers-v5",
+  },
 };

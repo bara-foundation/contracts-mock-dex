@@ -2,8 +2,10 @@
   "name": "@bara-foundation/mock-dex-contracts",
   "description": "Mock DEX for testing",
   "version": "0.0.1-rc.4",
+  "types": "./typechain/index.ts",
   "files": [
     "**/*.sol",
+    "**/*.d.ts",
     "/build/contracts/*.json",
     "!/mocks/**/*"
   ],

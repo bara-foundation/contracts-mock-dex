@@ -6,3 +6,5 @@ artifacts
 
 build/
 contracts/build/
+dist/
+typechain/
