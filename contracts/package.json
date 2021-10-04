@@ -1,7 +1,7 @@
 {
   "name": "@bara-foundation/contracts-mock-dex",
   "description": "Mock DEX for testing",
-  "version": "0.0.1-rc.1",
+  "version": "0.0.1-rc.2",
   "files": [
     "**/*.sol",
     "/build/contracts/*.json",
@@ -28,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues"
   },
-  "homepage": "https://openzeppelin.com/contracts/"
+  "homepage": "https://openzeppelin.com/contracts/",
+  "private": false
 }
