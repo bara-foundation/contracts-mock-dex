@@ -1,0 +1,32 @@
+{
+  "name": "@bara-foundation/contracts-mock-dex",
+  "description": "Mock DEX for testing",
+  "version": "1.0.0-alpha",
+  "files": [
+    "**/*.sol",
+    "/build/contracts/*.json",
+    "!/mocks/**/*"
+  ],
+  "scripts": {
+    "prepare": "bash ../scripts/prepare-contracts-package.sh",
+    "prepare-docs": "cd ..; npm run prepare-docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security",
+    "zeppelin"
+  ],
+  "author": "OpenZeppelin Community <maintainers@openzeppelin.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenZeppelin/openzeppelin-contracts/issues"
+  },
+  "homepage": "https://openzeppelin.com/contracts/"
+}
