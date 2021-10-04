@@ -1,5 +1,6 @@
 {
   "name": "@bara-foundation/mock-dex-contracts",
+  "version": "0.0.1-rc.0",
   "files": [
     "/contracts/**/*.sol",
     "/build/contracts/*.json",
@@ -10,7 +11,8 @@
     "prepare": "npm run clean && env COMPILE_MODE=production npm run compile",
     "clean": "hardhat clean && rimraf build contracts/build",
     "prepack": "scripts/prepack.sh",
-    "release": "scripts/release/release.sh"
+    "release": "scripts/release/release.sh",
+    "version": "scripts/release/version.sh"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",

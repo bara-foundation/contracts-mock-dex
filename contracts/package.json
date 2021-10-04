@@ -1,7 +1,7 @@
 {
   "name": "@bara-foundation/contracts-mock-dex",
   "description": "Mock DEX for testing",
-  "version": "1.0.0-alpha",
+  "version": "0.0.1-rc.0",
   "files": [
     "**/*.sol",
     "/build/contracts/*.json",
