@@ -91,7 +91,7 @@ if [[ "$*" == "push" ]]; then
 elif [[ "$*" == "start minor" ]]; then
   log "Creating new minor pre-release"
 
-  assert_current_branch master
+  assert_current_branch main
 
   # Create temporary release branch
   git checkout -b release-temp
@@ -107,7 +107,7 @@ elif [[ "$*" == "start minor" ]]; then
 elif [[ "$*" == "start major" ]]; then
   log "Creating new major pre-release"
 
-  assert_current_branch master
+  assert_current_branch main
 
   # Create temporary release branch
   git checkout -b release-temp
@@ -145,7 +145,7 @@ elif [[ "$*" == "final" ]]; then
 
   # npm deprecate 'openzeppelin-solidity@>=4.0.0' "This package is now published as @openzeppelin/contracts. Please change your dependency."
 
-  log "Remember to merge the release branch into master and push upstream"
+  log "Remember to merge the release branch into main and push upstream"
 
 else
   log "Unknown command: '$*'"
