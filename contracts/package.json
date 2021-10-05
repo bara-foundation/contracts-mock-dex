@@ -1,7 +1,7 @@
 {
   "name": "@bara-foundation/mock-dex-contracts",
   "description": "Mock DEX for testing",
-  "version": "0.2.0-rc.0",
+  "version": "0.2.0",
   "main": "./build/typechain/index.js",
   "types": "./build/typechain/index.d.ts",
   "files": [

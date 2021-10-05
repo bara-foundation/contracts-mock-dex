@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.0
+## 0.2.0 (2021-10-05)
 
 - Update repo scripts
 
